@@ -1,4 +1,4 @@
-# hriti11-project-
+# hriti11-project- for hacktoberfest
 What’s New In Python 3.10
 Release
 3.10.0
