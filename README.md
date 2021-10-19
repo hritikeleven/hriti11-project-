@@ -11,7 +11,7 @@ Pablo Galindo Salgado
 
 This article explains the new features in Python 3.10, compared to 3.9.
 
-For full details, see the changelog.
+For full details, see the changelog and the website .
 
 Summary – Release highlights
 New syntax features:
