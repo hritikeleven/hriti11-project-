@@ -125,7 +125,7 @@ SyntaxError exceptions raised by the interpreter will now highlight the full err
 SyntaxError: Generator expression must be parenthesized
 now Python 3.10 will display the exception as:
 
->>>
+>>>>>>>
 >>> foo(x, z for z in range(10), t, w)
   File "<stdin>", line 1
     foo(x, z for z in range(10), t, w)
