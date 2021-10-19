@@ -1,6 +1,6 @@
 # hriti11-project- for hacktoberfest
 What’s New In Python 3.10 python for all
-Release
+Release version
 3.10.0
 
 Date
