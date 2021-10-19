@@ -57,13 +57,13 @@ Parenthesized context managers
 Using enclosing parentheses for continuation across multiple lines in context managers is now supported. This allows formatting a long collection of context managers in multiple lines in a similar way as it was previously possible with import statements. For instance, all these examples are now valid:
 
 with (CtxManager() as example):
-    ...
+    ......
 
 with (
     CtxManager1(),
     CtxManager2()
 ):
-    ...
+    ......
 
 with (CtxManager1() as example,
       CtxManager2()):
@@ -125,7 +125,7 @@ SyntaxError exceptions raised by the interpreter will now highlight the full err
 SyntaxError: Generator expression must be parenthesized
 now Python 3.10 will display the exception as:
 
->>>
+>>>>>>>
 >>> foo(x, z for z in range(10), t, w)
   File "<stdin>", line 1
     foo(x, z for z in range(10), t, w)
