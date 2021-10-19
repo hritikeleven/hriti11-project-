@@ -1,5 +1,5 @@
-# hriti11-project-
-What’s New In Python 3.10
+# hriti11-project- for hacktoberfest
+What’s New In Python 3.10 python for all
 Release
 3.10.0
 
