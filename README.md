@@ -57,13 +57,13 @@ Parenthesized context managers
 Using enclosing parentheses for continuation across multiple lines in context managers is now supported. This allows formatting a long collection of context managers in multiple lines in a similar way as it was previously possible with import statements. For instance, all these examples are now valid:
 
 with (CtxManager() as example):
-    ...
+    ......
 
 with (
     CtxManager1(),
     CtxManager2()
 ):
-    ...
+    ......
 
 with (CtxManager1() as example,
       CtxManager2()):
